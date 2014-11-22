@@ -18,6 +18,7 @@ describe 'Fizzbuzz', ->
     expect(fizzbuzz.isDivisibleByFive(1)).to.be.false
   it 'knows 15 is divisible by 15', -> 
     expect(fizzbuzz.isDivisibleByFifteen(15)).to.be.true
-    
+  it 'knows 1 is not divisable by 15', ->
+    expect(fizzbuzz.isDivisibleByFifteen(1)).to.be.false  
 
 

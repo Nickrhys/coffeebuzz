@@ -4,4 +4,4 @@ module.exports = class Fizzbuzz
   isDivisibleByFive: (number)->
     number % 5 == 0
   isDivisibleByFifteen: (number)->
-    true
+    number % 15 == 0
