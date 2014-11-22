@@ -12,5 +12,7 @@ describe 'Fizzbuzz', ->
     expect(fizzbuzz.isDivisibleByThree(3)).to.be.true
   it 'knows 1 is not divisible by 3', ->
     expect(fizzbuzz.isDivisibleByThree(1)).to.be.false  
+  it 'knows 5 is divisible by 5', ->
+    expect(fizzbuzz.isDivisibleByFive(5)).to.be.true
 
 
