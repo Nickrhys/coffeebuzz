@@ -1,3 +1,3 @@
 module.exports = class Fizzbuzz
   isDivisibleByThree: (number)->
-    true
+    number % 3 == 0
