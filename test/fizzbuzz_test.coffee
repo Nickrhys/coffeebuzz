@@ -23,6 +23,10 @@ describe 'Fizzbuzz', ->
   it 'says fizz when divisable by 3', ->
     expect(@fizzbuzz.fizzcall(9)).to.equal 'fizz' 
   it 'says buzz when divisable by 5', ->
-    expect(@fizzbuzz.fizzcall(10)).to.equal 'buzz'   
+    expect(@fizzbuzz.fizzcall(10)).to.equal 'buzz'
+  it 'says fizzbuzz when divisable by 15', ->
+    expect(@fizzbuzz.fizzcall(30)).to.equal 'fizzbuzz' 
+  it 'returns a number in all other cases', -> 
+    expect(@fizzbuzz.fizzcall(1)).to.equal 1  
 
 
