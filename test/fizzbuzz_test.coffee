@@ -21,6 +21,8 @@ describe 'Fizzbuzz', ->
   it 'knows 1 is not divisable by 15', ->
     expect(@fizzbuzz.isDivisibleBy(1)).to.be.false  
   it 'says fizz when divisable by 3', ->
-    expect(@fizzbuzz.fizzcall(9)).to.equal('fizz')    
+    expect(@fizzbuzz.fizzcall(9)).to.equal 'fizz' 
+  it 'says buzz when divisable by 5', ->
+    expect(@fizzbuzz.fizzcall(10)).to.equal 'buzz'   
 
 

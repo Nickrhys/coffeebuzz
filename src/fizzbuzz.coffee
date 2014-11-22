@@ -9,3 +9,4 @@ module.exports = class Fizzbuzz
     number % divisor == 0
   fizzcall: (number)->
     return 'fizz' if @isDivisibleBy number, 3
+    return 'buzz' if @isDivisibleBy number, 5
